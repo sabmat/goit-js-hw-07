@@ -22,8 +22,6 @@ function onGalleryContainer (evt) {
     evt.preventDefault();
   if (!evt.target.classList.contains("gallery__image")) {
     return;
-      
-  
   }
   
  const  gallery = new SimpleLightbox('.gallery a');
